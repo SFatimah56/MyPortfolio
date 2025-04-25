@@ -1,0 +1,251 @@
+﻿body {
+    padding-top: 50px; /* Offset content from fixed hotbar */
+    background-color: pink;
+    margin: 0;
+}
+
+.hotbar {
+    background-color: lightpink; /* Dark background */
+    overflow: hidden; /* Clear float */
+    position: fixed; /* Fix at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.hotbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the tabs */
+}
+
+.hotbar li {
+    display: inline;
+    padding: 14px 20px;
+}
+
+.hotbar li a {
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Malgun Gothic';
+    font-size: medium;
+}
+
+.hotbar li a:hover {
+    background-color: pink; /* Light color on hover */
+    color: rebeccapurple;
+}
+
+.name {
+    font-family:'Malgun Gothic';
+    font-size:30px;
+    margin: 150px;
+    color:white;
+}
+
+.line {
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    text-align: inherit;
+    margin-top:-40px;
+}
+
+.description{
+    font-size: 20px;
+    color:white;
+    margin-top: -20px;
+}
+
+.description .loc{
+    margin-top:-20px;
+    color: rebeccapurple;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: lightpink; /* Dark background color */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Malgun Gothic', sans-serif;
+}
+
+.resume-button:hover {
+    background-color: rebeccapurple; /* Slightly lighter color on hover */
+}
+
+.image {
+    margin-top: -300px;
+    display: flex;
+    justify-content: right;
+
+}
+
+.intro {
+    color: white;
+    font-family: 'Malgun Gothic';
+    font-size: 20px;
+    margin-top: 50px;
+}
+.hidden {
+    display: none;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*Projects*/
+.academic {
+    color: white;
+    font-family:'Malgun Gothic';
+    margin: 50px;
+}
+
+.hackathon {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+}
+
+.line2 {
+    height:2px;
+    width: 18%;
+    margin-top: -10px;
+    background-color: white;
+}
+
+.line3 {
+    height: 2px;
+    width: 18%;
+    margin-top: -10px;
+    background-color: white;
+}
+
+/*About*/
+.about {
+    color:white;
+    font-family:'Malgun Gothic';
+    margin:50px;
+}
+
+.desc {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+    font-size: larger;
+}
+
+.planguages {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+}
+.desc2 {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+    font-size: larger;
+}
+
+.skills {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+}
+
+.desc3 {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+    font-size: larger;
+}
+
+.sskills {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+}
+
+.desc4 {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+    font-size: larger;
+}
+
+.nlanguages {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+}
+
+.desc5 {
+    color: white;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+    font-size: larger;
+}
+
+
+/*Contacts*/
+.all {
+    color: rebeccapurple;
+    font-family: 'Malgun Gothic';
+    margin: 50px;
+    margin-top: 200px;
+    text-align: center;
+}
+.linkedin-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: lightpink; /* Dark background color */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Malgun Gothic', sans-serif;
+}
+
+.linkedin-button:hover {
+    background-color: rebeccapurple; /* Slightly lighter color on hover */
+}
+
+.email-button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    background-color: lightpink; /* Dark background color */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Malgun Gothic', sans-serif;
+}
+
+.email-button:hover {
+    background-color: rebeccapurple; /* Slightly lighter color on hover */
+}
